@@ -6,7 +6,7 @@ class Principal extends React.Component {
         return(
             <div className="principal">
                 <div className="principal-container">
-                    <span className="card-title" style={{fontSize: 40, color: '#fff'}}>Hola soy un titulo general de la pagina para primera impresion</span>
+                    <span className="card-title" style={{fontSize: 40, color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                 </div>
             </div>
         )

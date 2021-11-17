@@ -7,6 +7,7 @@ class ValueInput extends React.Component {
             <>
                 <input
                     className="input-text"
+                    required
                     placeholder={this.props.name}
                 ></input>
             </>

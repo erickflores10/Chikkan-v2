@@ -1,12 +1,15 @@
 import React from "react";
+import '../../scss/index.css';
 import '../../scss/Layout.css';
 
-import Separator from '../../components/Separator';
-import Principal from '../../components/Principal';
-import MinCard from '../../components/MinCard';
-import Card from '../../components/Card';
+import Separator from '../Separator';
+import Principal from '../Principal';
+import MinCard from '../MinCard';
+import Card from '../Card';
+import Categorias from "../Categorias";
 
 class LayoutMain extends React.Component {
+
     render() {
         return(
             <main className="main">
@@ -27,6 +30,7 @@ class LayoutMain extends React.Component {
                 <section className="main-container__category">
                     <div className="c-title">
                         <Separator sectionName="Categorias"/>
+                        <Categorias />
                     </div>
                     <div className="category__item">
                         <Card />

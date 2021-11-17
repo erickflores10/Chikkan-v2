@@ -1,12 +1,16 @@
 import React from 'react';
 import imagenPrueba from '../assets/images/imagen-prueba.png';
+import imageBattlefield from '../assets/images/BATTLEFIELD 2042 2.png';
 import '../scss/index.css';
 
+
+
 class Card extends React.Component {
+
     render() {
         return(
             <div className="card">
-                <img src={imagenPrueba} alt={this.props.alt}/>
+                <img src={imageBattlefield} alt={this.props.alt}/>
                 <div className="card-content">
                     <span className="card-title">Titulo de noticia</span>
                     <h5 className="card-subtitle">Autor | Lugar | Fecha</h5>

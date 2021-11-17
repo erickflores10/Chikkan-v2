@@ -17,7 +17,6 @@ class Footer extends React.Component {
                     <div className="footer-item">
                         <span className="footer-item__nav">Navegacion</span>
                         <ul>
-                            <li><a className="footer-link">Inicio</a></li>
                             <li><a className="footer-link">Recientes</a></li>
                             <li><a className="footer-link">Categorias</a></li>
                             <li><a className="footer-link">Destacados</a></li>
